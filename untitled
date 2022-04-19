@@ -1,0 +1,87 @@
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local TextButton = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local TextButton_4 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ResetOnSpawn = false
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+Frame.Position = UDim2.new(0.299562693, 0, 0.267484665, 0)
+Frame.Size = UDim2.new(0, 549, 0, 379)
+Frame.Active = true
+Frame.Draggable = true
+
+UICorner.CornerRadius = UDim.new(0, 80)
+UICorner.Parent = Frame
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.Position = UDim2.new(0.0853685737, 0, 0.208864152, 0)
+TextButton.Size = UDim2.new(0, 180, 0, 65)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Ender"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 75.000
+
+UICorner_2.CornerRadius = UDim.new(0, 30)
+UICorner_2.Parent = TextButton
+
+TextButton_2.Parent = Frame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.Position = UDim2.new(0.0853685737, 0, 0.552396536, 0)
+TextButton_2.Size = UDim2.new(0, 180, 0, 65)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 14.000
+
+UICorner_3.CornerRadius = UDim.new(0, 30)
+UICorner_3.Parent = TextButton_2
+
+TextButton_3.Parent = Frame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.Position = UDim2.new(0.559754789, 0, 0.208864152, 0)
+TextButton_3.Size = UDim2.new(0, 180, 0, 65)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextSize = 14.000
+
+UICorner_4.CornerRadius = UDim.new(0, 30)
+UICorner_4.Parent = TextButton_3
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.144756958, 0, 0.0379332155, 0)
+TextLabel.Size = UDim2.new(0, 390, 0, 50)
+TextLabel.Font = Enum.Font.SourceSansBold
+TextLabel.Text = "Fe Pug Hub"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 65.000
+
+TextButton_4.Parent = Frame
+TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.Position = UDim2.new(0.559025943, 0, 0.552396476, 0)
+TextButton_4.Size = UDim2.new(0, 180, 0, 65)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.TextSize = 14.000
+
+UICorner_5.CornerRadius = UDim.new(0, 30)
+UICorner_5.Parent = TextButton_4
+
+TextButton.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/puglsYT/untitled/main/e'))()
+end)
